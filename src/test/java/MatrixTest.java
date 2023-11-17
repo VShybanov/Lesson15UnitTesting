@@ -20,6 +20,12 @@ class MatrixTest {
     }
 
     @Test
+    void avgArray() {
+        int[] array = new int[] {1, 2, 3, 4};
+        assertEquals(2.5, matrixClass.avgArray(array));
+    }
+
+    @Test
     void isMatrixSquare00() {
         int[][] matrix = new int[0][0];
         assertFalse(matrixClass.isMatrixSquare(matrix));
