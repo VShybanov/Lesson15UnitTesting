@@ -33,7 +33,7 @@ public class Lesson15 {
         System.out.println("Matrix 4:");
         for (int i = 0; i < matrix4.length; i++) {
             System.out.print(Arrays.toString(matrix4[i]) + " ");
-            System.out.println("Середнє арифметичне = " + matrixClass.avgArray(matrix4[i]));
+            System.out.println("Average value = " + matrixClass.avgArray(matrix4[i]));
         }
         System.out.println("The square matrix - " + matrixClass.isMatrixSquare(matrix4));
     }
